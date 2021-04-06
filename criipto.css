@@ -1,16 +1,20 @@
-/*******************\
-* HEADER            *
-\*******************/
-.broker h1#headline {    
+.broker h1#headline {
+    display: block;
     max-width: 100%;
     border-bottom: 1px solid #E6E6E6;    
     background-image: url("logo.svg");
     background-repeat: no-repeat;        
 }
 
-.lang {
+/* HIDE UNWANTED CONTENT */
+.broker #description,
+.broker #footer,
+.broker #ui_locales,
+.broker .lang {
     display: none;
 }
+
+/* OVERRIDES */
 
 @media (max-width:768px) {
     .broker h1#headline {
