@@ -1,12 +1,16 @@
-/******************
-* Generic styling *
-******************/
+/*******************\
+* HEADER            *
+\*******************/
 .broker h1#headline {
     margin: 0;
     max-width: 100%;
     border-bottom: 1px solid #E6E6E6;    
     background-image: url("logo.svg");
     background-repeat: no-repeat;        
+}
+
+.lang {
+    display: none;
 }
 
 @media (max-width:768px) {
