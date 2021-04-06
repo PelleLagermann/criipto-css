@@ -21,7 +21,7 @@
 
 @media (max-width:768px) {
     .broker h1#headline {
-        margin-bottom: clamp(0, calc((100vh - 76px - 400px) / 2), 1000px);
+        margin-bottom: clamp(0px, ((100vh - 76px - 400px) / 2), 1000px);
         height: 75px;
         background-size: 83px 35px;
         background-position: 24px center;
@@ -35,7 +35,7 @@
 
 @media (min-width:769px) {
     .broker h1#headline {
-        margin-bottom: clamp(0, calc((100vh - 101px - 460px) / 2), 1000px);
+        margin-bottom: clamp(0px, ((100vh - 101px - 460px) / 2), 1000px);
         height: 100px;    
         background-size: 89px 37px;
         background-position: 30px center;
