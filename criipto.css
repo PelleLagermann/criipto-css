@@ -6,8 +6,8 @@
     background-repeat: no-repeat;        
 }
 
-body.broker .frame {
-    height: auto;
+.broker .frame {
+    height: 400px;
     min-height: auto;
 }
 
@@ -17,18 +17,6 @@ body.broker .frame {
 .broker #ui_locales,
 .broker .lang {
     display: none;
-}
-
-@media (max-width:300px) {
-    body.broker .frame {
-        height: 300px;
-    }
-}
-
-@media (min-width:301px) {
-    body.broker .frame {
-        height: 400px;
-    }
 }
 
 @media (max-width:768px) {
