@@ -6,8 +6,9 @@
     background-repeat: no-repeat;        
 }
 
-.dknemid #nemid_iframe {    
-    height: 400px;
+body.broker .frame {
+    height: auto;
+    min-height: auto;
 }
 
 /* HIDE UNWANTED CONTENT */
@@ -19,9 +20,15 @@
 }
 
 @media (max-width:300px) {
-    .dknemid #nemid_iframe {    
+    body.broker .frame {
         height: 300px;
-    }       
+    }
+}
+
+@media (min-width:301px) {
+    body.broker .frame {
+        height: 400px;
+    }
 }
 
 @media (max-width:768px) {
