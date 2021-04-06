@@ -6,6 +6,10 @@
     background-repeat: no-repeat;        
 }
 
+.dknemid #nemid_iframe {    
+    height: 400px;
+}
+
 /* HIDE UNWANTED CONTENT */
 .broker #description,
 .broker #footer,
@@ -14,7 +18,11 @@
     display: none;
 }
 
-/* OVERRIDES */
+@media (max-width:300px) {
+    .dknemid #nemid_iframe {    
+        height: 300px;
+    }       
+}
 
 @media (max-width:768px) {
     .broker h1#headline {
