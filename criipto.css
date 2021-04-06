@@ -32,6 +32,12 @@
     }
 }
 
+@media (max-width:768px) and (min-height: 551px) {
+    .broker h1#headline {
+        margin: 0 0 75px;        
+    }
+}
+
 @media (min-width:769px) {
     .broker h1#headline {
         margin: 0 0 100px;
