@@ -28,6 +28,7 @@
     
     .dknemid iframe.frame {    
         width: 100%;
+        height: 400px;
     }
 }
 
@@ -37,5 +38,9 @@
         height: 100px;    
         background-size: 89px 37px;
         background-position: 30px center;
-    }    
+    }
+    
+    .dknemid iframe.frame {         
+        height: 460px;
+    }
 }
