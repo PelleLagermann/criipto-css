@@ -6,8 +6,7 @@
     background-repeat: no-repeat;        
 }
 
-.dknemid iframe.frame {
-    height: 400px;
+.dknemid iframe.frame {    
     min-height: auto;
 }
 
@@ -27,6 +26,9 @@
         background-position: 24px center;
     }
     
+    .dknemid iframe.frame {    
+        width: 100%;
+    }
 }
 
 @media (min-width:769px) {
