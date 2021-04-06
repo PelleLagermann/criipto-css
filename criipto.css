@@ -6,13 +6,14 @@
     max-width: 100%;
     border-bottom: 1px solid #E6E6E6;    
     background-image: url("logo.svg");
-    background-repeat: no-repeat;
-    background-position: center left;    
+    background-repeat: no-repeat;        
 }
 
 @media (max-width:768px) {
     .broker h1#headline {
-        height: 75px;    
+        height: 75px;
+        background-size: 83px 35px;
+        background-position: 24px center;
     }
     
 }
@@ -20,5 +21,7 @@
 @media (min-width:769px) {
     .broker h1#headline {
         height: 100px;    
+        background-size: 89px 37px;
+        background-position: 30px center;
     }    
 }
