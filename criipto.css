@@ -1,7 +1,7 @@
 .broker h1#headline {
     display: block;
-    margin: 0;    
     max-width: 100%;
+    margin: 0;        
     border-bottom: 1px solid #E6E6E6;    
     background-image: url("logo.svg");
     background-repeat: no-repeat;        
@@ -21,8 +21,8 @@
 
 @media (max-width:768px) {
     .broker h1#headline {
-        margin-bottom: clamp(0px, ((100vh - 76px - 400px) / 2), 1000px);
         height: 75px;
+        margin-bottom: clamp(0px, ((100vh - 76px - 400px) / 2), 1000px);        
         background-size: 83px 35px;
         background-position: 24px center;
     }
@@ -35,8 +35,8 @@
 
 @media (min-width:769px) {
     .broker h1#headline {
-        margin-bottom: clamp(0px, ((100vh - 101px - 460px) / 2), 1000px);
-        height: 100px;    
+        height: 100px;
+        margin-bottom: clamp(0px, ((100vh - 101px - 460px) / 2), 1000px);        
         background-size: 89px 37px;
         background-position: 30px center;
     }
