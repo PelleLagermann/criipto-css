@@ -1,0 +1,325 @@
+/******************
+* Generic styling *
+******************/
+
+@media (min-width:750px) {
+    body.broker h1#headline {
+        position: relative;
+        margin-bottom: 0px;
+    }
+    body.broker .frame {
+        height: auto;
+    }
+    body.broker h1#headline {
+        margin-bottom: 100px !important;
+        background-position: center right 15px !important;
+    }
+    #description p:first-child .lang::after,
+    #description p:nth-child(2) .lang::after,
+    #description p:nth-child(3) .lang::after {
+        color: #fff !important;
+    }
+    body.broker:before {
+        content: "";
+        position: absolute;
+        display: block;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(to right, rgba(14, 14, 14, 0.9) 50%, rgba(34, 34, 34, 0) 100%);
+    }
+}
+
+body.broker #description {
+    display: inherit;
+}
+
+body.broker {
+    background-clip: content-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+body.broker h1#headline {
+    position: relative;
+    margin-bottom: 0px;
+}
+
+body.broker #description p {
+    margin-bottom: 0px;
+    line-height: 1;
+}
+
+body.broker .frame {
+    height: auto;
+    min-height: auto;
+}
+
+#description p:first-child .lang::after {
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    display: block;
+    color: #000;
+    position: relative;
+    margin-bottom: .5em;
+}
+
+#description p:nth-child(2) .lang::after {
+    font-size: 14px;
+    text-align: center;
+    display: block;
+    color: #000;
+    position: relative;
+    margin-bottom: .5em;
+}
+
+
+/* p nr 3 is hidden by default */
+
+#description p:nth-child(3) {
+    display: block;
+}
+
+#description p:nth-child(3) .lang::after {
+    font-size: 14px;
+    text-align: center;
+    display: block;
+    color: #000;
+    position: relative;
+}
+
+.broker #footer .inner {
+    background-image: none;
+}
+
+.lang-en {
+    display: none;
+}
+
+.broker h1#headline {
+    display: block;
+    height: 60px;
+    min-width: 100%;
+    margin-top: 0px;
+}
+
+
+/*****************
+* Swedish bankID *
+******************/
+
+@media (min-width:480px) {
+    body.sebankid.broker {
+        background-image: url(/assets/background/eniro.jpg);
+    }
+}
+
+.sebankid .lang-sv {
+    display: inherit;
+}
+
+.sebankid .frame .lang {
+    margin-bottom: 1em;
+}
+
+.sebankid .frame .button .lang {
+    margin-bottom: 0em;
+}
+
+.sebankid .frame .button-primary {
+    background-color: #0080e1;
+    padding: 14px 10px;
+    min-width: 50px;
+    display: inline-block;
+    font-size: 0.9em;
+    box-sizing: border-box;
+    color: #fff;
+    margin: 1em 0;
+    transition: background-color 250ms ease-in;
+    border-radius: 0%;
+    text-transform: uppercase;
+    font-size: .9em;
+}
+
+.sebankid .frame .button-primary:hover {
+    background-color: #005c9a;
+}
+
+.sebankid #sebankid_anotherdevice_ssn_input {
+    background-image: url(/assets/bankid-se.svg);
+    background-repeat: no-repeat;
+    background-position: center right 15px;
+    background-size: 30px;
+    height: auto;
+    padding: 15px 15px;
+}
+
+.sebankid.broker #headline {
+    background-color: #ffe000;
+    background-image: url(/assets/logo/eniro_logo_gray.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto 21px;
+}
+
+
+/* Unsetting all the boilerplate text */
+
+.sebankid #headline .lang span {
+    display: none;
+}
+
+.sebankid #headline .lang-sv:after {
+    content: "";
+}
+
+.sebankid #headline .lang-en:after {
+    content: "";
+}
+
+.sebankid #description .lang .text {
+    display: none;
+}
+
+.sebankid .button {
+    width: 100%;
+}
+
+
+/* "Popup" styling */
+
+@media (min-width:480px) {
+    .sebankid .frame {
+        background: #ffffff;
+        box-shadow: 0 0 15px -5px rgba(0, 0, 0, 0.15);
+        border: 1px solid #eee;
+        flex: 1 0;
+        padding: 20px;
+        border-radius: 15px;
+        overflow: hidden;
+        width: 450px;
+        position: relative;
+    }
+}
+
+.sebankid .frame.has-error-hide {
+    background-image: url(/assets/login.svg);
+    background-repeat: no-repeat;
+    background-position: center 30px;
+    padding: 190px 40px 40px 40px;
+}
+
+.sebankid #sebankid_error_frame,
+.sebankid #sebankid_cancel_frame {
+    background-image: url(/assets/error.svg);
+    background-repeat: no-repeat;
+    background-position: center 30px;
+    padding: 190px 40px 40px 40px;
+}
+
+
+/* Footer text */
+
+.sebankid #description p:first-child .lang-sv::after {
+    content: "Svårt att komma in?";
+}
+
+.sebankid #description p:nth-child(2) .lang-sv::after {
+    content: "Kontakta oss på 0770-77 97 97 så hjälper vi dig";
+}
+
+.sebankid #description p:nth-child(3) .lang-sv::after {
+    content: "Måndag - Torsdag: 09-12, 13-15 Fredag: 09-12";
+}
+
+
+/* Cancelled sign in */
+
+.sebankid #sebankid_cancel_frame .lang-sv .text {
+    display: none
+}
+
+.sebankid #sebankid_cancel_frame .lang-sv:after {
+    content: "Inloggningen avbröts."
+}
+
+
+/* Start bankid app */
+
+.sebankid .sebankid-startapp #sebankid_startapp_message .lang-sv .text {
+    display: none
+}
+
+.sebankid .sebankid-startapp #sebankid_startapp_message .lang-sv:after {
+    content: "Starta BankID-appen på din telefon."
+}
+
+
+/* Starting bankid */
+
+.sebankid .sebankid-this-device #sebankid_startapp_message .lang-sv .text {
+    display: none
+}
+
+.sebankid .sebankid-this-device #sebankid_startapp_message .lang-sv:after {
+    content: "Startar BankID-appen."
+}
+
+
+/*****************
+* Danish nemID *
+******************/
+
+@media (min-width:480px) {
+    body.dknemid.broker {
+        background-image: url(/assets/background/krak.jpg);
+    }
+}
+
+.dknemid #nemid_iframe {
+    position: relative;
+    height: 400px;
+}
+
+.sebankid .lang-da {
+    display: inherit;
+}
+
+.dknemid #headline .lang .text {
+    display: none;
+}
+
+.dknemid.broker #headline {
+    background-color: #d50019;
+    background-image: url(/assets/logo/krak_logo_white.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto 21px;
+}
+
+.dknemid .frame {
+    position: relative;
+}
+
+.dknemid #description .lang {
+    display: block;
+}
+
+.dknemid #description .lang .text {
+    display: none;
+}
+
+
+/* Footer text */
+
+.dknemid #description p:first-child .lang-da::after {
+    content: "Problemer med at logge ind?";
+}
+
+.dknemid #description p:nth-child(2) .lang-da::after {
+    content: "Kontakt os på 8838 3800, så hjælper vi dig";
+}
+
+.dknemid #description p:nth-child(3) .lang-da::after {
+    content: "Mandag - Fredag: 09.00 - 11.30, 12.30 - 15.00";
+}
