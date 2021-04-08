@@ -43,7 +43,7 @@ html, body {
     }
 }
 
-@media (min-width:480px) {
+@media (min-width:1px) {
     body.broker {
         background-image: url(/background.jpg);
         background-clip: content-box;
