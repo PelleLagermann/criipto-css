@@ -6,7 +6,7 @@ html {
 }
 *:not(.broker-dk-side-by-side-tabs), 
 *::before, *::after {
-    box-sizing: inherit !important;
+    box-sizing: border-box !important;
 }
 
 body.broker {
