@@ -43,12 +43,13 @@ body.broker::before {
     width: 502px;
     max-width: 93.75vw;
     margin: 0 auto;
+    padding: clamp(10px, 3.125vw, 50px);
     border: 1px solid #cacaca;
     background-color: #FFFFFF;
 }
 
 .broker .broker-dk-side-by-side-content iframe.frame {
-    width: 400px;
+    width: 100%;
     max-width: 87.5vw;
     min-height: auto;
     margin: 0 auto;
