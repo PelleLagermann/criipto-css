@@ -39,12 +39,13 @@ body.broker::before {
 }
 
 .broker .broker-dk-side-by-side-tabs {
-    width: min(93.75vw, 502px);
+    width: min(502px, 93.75vw);
+    margin: 0 auto;
 }
 
 .broker .broker-dk-side-by-side-content {
     position: relative;
-    width: min(93.75vw, 502px);
+    width: min(502px, 93.75vw);    
     margin: 0 auto;    
     border: 1px solid #cacaca;
     background-color: #FFFFFF;
@@ -52,9 +53,10 @@ body.broker::before {
 
 .broker .broker-dk-side-by-side-content iframe.frame {
     width: 100%;
-    width: min(87.5vw, 400px);    
+    max-width: 400px;
+    height: 100%;
     min-height: auto;
-    margin: 0 auto;
+    margin: 0;
 }
 
 @media (max-width:338px) {
