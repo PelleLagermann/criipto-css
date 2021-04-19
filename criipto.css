@@ -31,13 +31,12 @@ body.broker::before {
     background-repeat: no-repeat;        
 }
 
-.dknemid iframe.frame {
+.broker .broker-dk-side-by-side-content {
     position: relative;
-    min-height: auto;
 }
 
-.broker .broker-dk-side-by-side-content {
-    border: 1px solid #cacaca;
+.broker .broker-dk-side-by-side-content iframe.frame {
+    min-height: auto;
 }
 
 @media (max-width:338px) {
