@@ -33,6 +33,8 @@ body.broker::before {
 
 .broker .broker-dk-side-by-side-content {
     position: relative;
+    border: 1px solid #cacaca;
+    background-color: #FFFFFF;
 }
 
 .broker .broker-dk-side-by-side-content iframe.frame {
