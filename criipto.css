@@ -4,8 +4,9 @@ html, body {
 html {
   box-sizing: border-box;
 }
-*, *:before, *:after {
-  box-sizing: inherit;
+*:not(.broker-dk-side-by-side-tabs), 
+*::before, *::after {
+    box-sizing: inherit !important;
 }
 
 body.broker {
