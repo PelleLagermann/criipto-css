@@ -48,7 +48,10 @@ body.broker::before {
 }
 
 .broker .broker-dk-side-by-side-content iframe.frame {
+    width: 400px;
+    max-width: 87.5vw;
     min-height: auto;
+    margin: 0 auto;
 }
 
 @media (max-width:338px) {
