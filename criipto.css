@@ -68,12 +68,15 @@ body.broker::before {
         background-size: 83px 35px;
         background-position: 24px center;
     }    
-    .broker .broker-dk-side-by-side-content {
-        width: 100%;    
+    .broker .broker-dk-side-by-side-content {        
         /*max-width: 93.75vw;
         padding: clamp(10px, 3.125vw, 50px);
         height: 420px;
         min-height: 0;        */
+    }
+    
+    .broker .broker-dk-side-by-side-content iframe.frame {
+        width: 100%;
     }
 }
 
