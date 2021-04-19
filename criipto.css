@@ -84,7 +84,7 @@ body.broker::before {
         background-position: 30px center;
     }
     
-    .dknemid iframe.frame {         
+    .broker .broker-dk-side-by-side-content .frame {         
         height: 460px;
     }
 }
