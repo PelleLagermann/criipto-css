@@ -53,7 +53,7 @@ body.broker::before {
 
 @media (min-width: 750px) {
     .broker .broker-dk-side-by-side-content {
-        480px
+        height: 480px;
     }
 }
 
