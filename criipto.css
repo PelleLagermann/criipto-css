@@ -36,9 +36,24 @@ body.broker::before {
     min-height: auto;
 }
 
+@media (max-width:338px) {
+    /* SMALL LOGIN BOX */
+}
+
 @media (max-width:479px) {
     .dknemid iframe.frame {    
         width: 94%;             
+    }
+}
+
+@media (max-width:749px) {
+    max-width: 400px;
+    margin: 10px auto;
+}
+
+@media (min-width: 750px) {
+    .broker .broker-dk-side-by-side-content {
+        480px
     }
 }
 
