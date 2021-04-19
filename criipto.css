@@ -38,6 +38,10 @@ body.broker::before {
     background-repeat: no-repeat;        
 }
 
+.broker-dk-side-by-side-tabs centered {
+    width: min(93.75vw, 502px);
+}
+
 .broker .broker-dk-side-by-side-content {
     position: relative;
     width: min(93.75vw, 502px);
