@@ -36,6 +36,10 @@ body.broker::before {
     min-height: auto;
 }
 
+.broker .broker-dk-side-by-side-content {
+    1px solid #cacaca
+}
+
 @media (max-width:338px) {
     /* SMALL LOGIN BOX */
 }
@@ -54,8 +58,10 @@ body.broker::before {
         background-position: 24px center;
     }    
     .broker .broker-dk-side-by-side-content {
-        height: 400px;
+        height: 420px;
         min-height: 0;
+        padding: 10px;
+        background-color: #fff;
     }
 }
 
