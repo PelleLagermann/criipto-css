@@ -48,7 +48,7 @@ body.broker::before {
 
 .broker .broker-dk-side-by-side-content iframe.frame {
     width: 100%;
-    max-width: 87.5vw;
+    width: min(87.5vw, 400px);    
     min-height: auto;
     margin: 0 auto;
 }
