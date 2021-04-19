@@ -52,12 +52,10 @@ body.broker::before {
         margin-bottom: clamp(0px, ((100vh - 76px - 626px) / 2), 1000px);        
         background-size: 83px 35px;
         background-position: 24px center;
-    }
-    
-    /*max-width: 400px;
-    margin: 10px auto;*/
+    }    
     .broker .broker-dk-side-by-side-content {
         height: 400px;
+        min-height: 0;
     }
 }
 
