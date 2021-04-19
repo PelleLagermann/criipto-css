@@ -39,21 +39,21 @@ body.broker::before {
 }
 
 .broker .broker-dk-side-by-side-tabs {
-    width: min(502px, 93.75vw);
+    width: min(502px, 94.25vw);
     margin: 0 auto;
 }
 
 .broker .broker-dk-side-by-side-content {
     position: relative;
-    width: min(502px, 93.75vw);    
+    width: min(502px, 94.25vw);    
     margin: 0 auto;    
     border: 1px solid #cacaca;
     background-color: #FFFFFF;
 }
 
-.broker .broker-dk-side-by-side-content iframe.frame {    
+.broker .broker-dk-side-by-side-content .frame {    
     height: 100%;
-    min-height: auto;
+    min-height: 0;
     margin: 0;
 }
 
