@@ -74,9 +74,7 @@ body.broker::before {
     }    
     .broker .broker-dk-side-by-side-content {
         height: 420px;
-        min-height: 0;
-        padding: 10px;
-        background-color: #fff;
+        min-height: 0;        
     }
 }
 
