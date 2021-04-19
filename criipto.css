@@ -56,8 +56,7 @@ body.broker::before {
     
     /*max-width: 400px;
     margin: 10px auto;*/
-    
-    .dknemid iframe.frame {            
+    .broker .broker-dk-side-by-side-content {
         height: 400px;
     }
 }
