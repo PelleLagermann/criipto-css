@@ -40,24 +40,13 @@ body.broker::before {
     /* SMALL LOGIN BOX */
 }
 
-@media (max-width:479px) {
+/*@media (max-width:479px) {
     .dknemid iframe.frame {    
         width: 94%;             
     }
-}
+}*/
 
-@media (max-width:749px) {
-    max-width: 400px;
-    margin: 10px auto;
-}
-
-@media (min-width: 750px) {
-    .broker .broker-dk-side-by-side-content {
-        height: 480px;
-    }
-}
-
-@media (max-width:768px) {
+@media (max-width:749px) {    
     .broker h1#headline {
         height: 75px;
         margin-bottom: clamp(0px, ((100vh - 76px - 626px) / 2), 1000px);        
@@ -65,18 +54,25 @@ body.broker::before {
         background-position: 24px center;
     }
     
+    /*max-width: 400px;
+    margin: 10px auto;*/
+    
     .dknemid iframe.frame {            
         height: 400px;
     }
 }
 
-@media (min-width:480px) {        
+/*@media (min-width:480px) {        
     .dknemid iframe.frame {            
         width: 400px;
     }
-}
+}*/
 
-@media (min-width:769px) {
+@media (min-width: 750px) {
+    .broker .broker-dk-side-by-side-content {
+        height: 480px;
+    }
+    
     .broker h1#headline {
         height: 100px;
         margin-bottom: clamp(0px, ((100vh - 101px - 626px) / 2), 1000px);        
