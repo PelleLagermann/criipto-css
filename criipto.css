@@ -65,7 +65,7 @@ body.broker::before {
 @media (max-width:749px) {    
     .broker h1#headline {
         height: 75px;
-        margin-bottom: clamp(0px, ((100vh - 76px - 626px) / 2), 1000px);        
+        margin-bottom: clamp(0px, ((100vh - 76px - 525px) / 2), 1000px);        
         background-size: 83px 35px;
         background-position: 24px center;
     }    
@@ -89,7 +89,7 @@ body.broker::before {
     
     .broker h1#headline {
         height: 100px;
-        margin-bottom: clamp(0px, ((100vh - 101px - 626px) / 2), 1000px);        
+        margin-bottom: clamp(0px, ((100vh - 101px - 525px) / 2), 1000px);        
         background-size: 89px 37px;
         background-position: 30px center;
     }
