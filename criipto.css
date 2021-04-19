@@ -40,7 +40,7 @@ body.broker::before {
 
 .broker .broker-dk-side-by-side-content {
     position: relative;
-    width: 502px;    
+    width: min(93.75vw, 502px);
     margin: 0 auto;    
     border: 1px solid #cacaca;
     background-color: #FFFFFF;
