@@ -20,9 +20,9 @@ body.broker {
 body.broker::before {
     position: absolute;
     top: 0;
-    right: 0;
-    bottom: 0;
+    right: 0;    
     left: 0;
+    height: 100%;
     content: '';        
     background-color: rgba(255,255,255,0.5);
 }
@@ -58,11 +58,11 @@ body.broker::before {
     margin: 0;
 }
 
-@media (max-width:338px) {
-    /* SMALL LOGIN BOX */
-}
-
-@media (max-width:749px) {    
+@media (max-width:749px) {
+    html, body, body.broker::before {
+        min-height: 520px;
+    }
+    
     .broker h1#headline {
         height: 75px;
         margin-bottom: clamp(0px, ((100vh - 76px - 444px) / 2), 1000px);        
@@ -70,11 +70,7 @@ body.broker::before {
         background-position: 24px center;
     }    
     .broker .broker-dk-side-by-side-content {        
-        height: 400px;
-        /*max-width: 93.75vw;
-        padding: clamp(10px, 3.125vw, 50px);
-        height: 420px;
-        min-height: 0;        */
+        height: 400px;        
     }
     
     .broker .broker-dk-side-by-side-content iframe.frame {
@@ -83,6 +79,10 @@ body.broker::before {
 }
 
 @media (min-width: 750px) {
+    html, body, body.broker::before {
+        min-height: 626px;
+    }
+    
     .broker .broker-dk-side-by-side-content {
         height: 480px;
     }
@@ -95,8 +95,7 @@ body.broker::before {
     }
     
     .broker .broker-dk-side-by-side-content .frame {         
-        width: 400px;
-        /*height: 460px;*/
+        width: 400px;        
     }
 }
 
