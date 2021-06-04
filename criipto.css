@@ -96,7 +96,7 @@ body.broker::before {
     #coreClientParent,
     #mitId{
         display: block;
-        width: 100%;
+        width: 100% !important;
     }
 }
 
