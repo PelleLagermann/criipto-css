@@ -10,6 +10,10 @@ html {
 }
 
 body.broker {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     background-image: url(/background.jpg);
     background-clip: content-box;
     background-position: center center;
@@ -28,8 +32,11 @@ body.broker::before {
 }
 
 .broker h1#headline {
-    position: relative;
+    position: absolute;
+    top: 0;
+    left: 0;
     display: block;
+    width: 100%;
     max-width: 100%;
     margin: 0;        
     border-bottom: 1px solid #e6e6e6;    
@@ -39,15 +46,13 @@ body.broker::before {
 }
 
 .broker .broker-dk-side-by-side-tabs {
-    width: min(502px, 94.25vw);
-    margin: 0 auto;
+    width: min(502px, 94.25vw);    
 }
 
 .broker .broker-dk-side-by-side-content {
     position: relative;
     width: min(502px, 94.25vw);    
-    min-height: 0;
-    margin: 0 auto;    
+    min-height: 0;    
     border: 1px solid #cacaca;
     background-color: #FFFFFF;
 }
@@ -61,6 +66,10 @@ body.broker::before {
 @media (max-width:749px) {
     html, body, body.broker::before {
         min-height: 520px;
+    }
+    
+    .body.broker {
+        padding-top: 75px;
     }
     
     .broker h1#headline {
@@ -81,6 +90,10 @@ body.broker::before {
 @media (min-width: 750px) {
     html, body, body.broker::before {
         min-height: 626px;
+    }
+    
+    .body.broker {
+        padding-top: 100px;
     }
     
     .broker .broker-dk-side-by-side-content {
