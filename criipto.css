@@ -87,6 +87,10 @@ body.broker::before {
         height: 480px;
     }
     
+    .broker.broker-mitid .broker-dk-side-by-side-content {
+        height: 690px;
+    }    
+    
     .broker h1#headline {
         height: 100px;
         margin-bottom: clamp(0px, ((100vh - 101px - 525px) / 2), 1000px);        
