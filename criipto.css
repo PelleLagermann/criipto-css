@@ -101,6 +101,10 @@ body.broker::before {
     .broker .broker-dk-side-by-side-content .frame {         
         width: 400px;        
     }
+    
+    .mitid-core-client {
+        height: 400px;
+    }
 }
 
 /* HIDE UNWANTED CONTENT */
