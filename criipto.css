@@ -102,6 +102,7 @@ body.broker::before {
         height: 510px;
     }    
     
+    .mitid-loader,
     .mitid-core-client {
         height: 400px !important;
     }
