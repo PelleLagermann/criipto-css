@@ -103,7 +103,7 @@ body.broker::before {
     }
     
     .mitid-core-client {
-        height: 400px;
+        height: 400px !important;
     }
 }
 
