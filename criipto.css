@@ -85,10 +85,6 @@ body.broker::before {
     
     .broker .broker-dk-side-by-side-content {
         height: 480px;
-    }
-    
-    .broker.broker-mitid .broker-dk-side-by-side-content {
-        height: 690px;
     }    
     
     .broker h1#headline {
@@ -101,6 +97,10 @@ body.broker::before {
     .broker .broker-dk-side-by-side-content .frame {         
         width: 400px;        
     }
+    
+    .broker.broker-mitid .broker-dk-side-by-side-content {
+        height: 510px;
+    }    
     
     .mitid-core-client {
         height: 400px !important;
