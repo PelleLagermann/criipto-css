@@ -68,7 +68,7 @@ body.broker::before {
         min-height: 520px;
     }
     
-    .body.broker {
+    body.broker {
         padding-top: 75px;
     }
     
@@ -92,7 +92,7 @@ body.broker::before {
         min-height: 626px;
     }
     
-    .body.broker {
+    body.broker {
         padding-top: 100px;
     }
     
