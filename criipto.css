@@ -78,8 +78,14 @@ body.broker::before {
         background-size: 83px 35px;
         background-position: 24px center;
     }    
+    
+    .broker-dk-side-by-side-tabs {
+        margin-bottom: 0;
+    }
+    
     .broker .broker-dk-side-by-side-content {        
-        height: 400px;        
+        height: 400px;
+        margin-top: 0;
     }
     
     .broker .broker-dk-side-by-side-content iframe.frame {
