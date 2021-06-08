@@ -3,9 +3,9 @@ body {
 }
 
 .dknemid-frame-limited {
-    width: 100%;
-    max-width: 200px;
-    height: 250px;
+    width: auto;
+    max-width: 100%;
+    height: auto;
 }
 
 /* Make all default texts invisible */
@@ -72,4 +72,22 @@ body {
     position: absolute;
     left: 8px;
     top: 3px;
+}
+
+/* New styles */
+.dknemid-above-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    border-bottom: 1px solid #e6e6e6;
+    background-color: #fff;
+    background-image: url(/logo.svg);
+    background-repeat: no-repeat;
+    height: 100px;
+    background-size: 89px 37px;
+    background-position: 30px center;
 }
