@@ -45,13 +45,18 @@ body.broker::before {
     background-repeat: no-repeat;        
 }
 
-.broker .broker-dk-side-by-side-tabs {
+.broker .broker-dk-side-by-side-tabs,
+.broker .broker-dk-side-by-side-content {
     width: min(502px, 94.25vw);    
 }
 
+.broker-mitid .broker-dk-side-by-side-tabs,
+.broker-mitid .broker-dk-side-by-side-content {
+    width: min(502px, 97vw);    
+}
+
 .broker .broker-dk-side-by-side-content {
-    position: relative;
-    width: min(502px, 94.25vw);    
+    position: relative;    
     min-height: 0;    
     border: 1px solid #cacaca;
     background-color: #FFFFFF;
