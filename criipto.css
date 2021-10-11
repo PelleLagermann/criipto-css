@@ -141,9 +141,9 @@ body.broker {
 }
 
 /* HIDE UNWANTED CONTENT */
-.broker #description,
+/* .broker #description,
 .broker #footer,
 .broker #ui_locales,
 .broker .lang {
 	display: none;
-}
+} */
