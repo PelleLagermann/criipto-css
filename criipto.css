@@ -141,7 +141,8 @@ body.broker {
 }
 
 /* HIDE UNWANTED CONTENT */
-.broker #headline .lang {
+.broker #headline .lang,
+.broker #footer, {
 	display: none;
 }
 /* .broker #description,
