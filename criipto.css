@@ -99,7 +99,7 @@ body.broker {
 			width: 100%;
 		}
 	
-		.broker .broker-dk-side-by-side-content iframe.frame .dknemid-frame-limited {
+		.broker .broker-dk-side-by-side-content iframe.frame.dknemid-frame-limited {
 			height: 400px;
             	}
 
