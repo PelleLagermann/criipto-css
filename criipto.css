@@ -132,12 +132,7 @@ body.broker {
 
 	.broker .broker-dk-side-by-side-content .frame {
 		width: 400px;
-	}	
-
-	.mitid-loader,
-	.mitid-core-client {
-		height: 400px !important;
-	}
+	}		
 }
 
 /* HIDE UNWANTED CONTENT */
